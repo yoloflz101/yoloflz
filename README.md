@@ -11,8 +11,11 @@ Enter name=any string, Until the content length is ≥ 1 million, send a request
 The request process occupies 100% of a core and can take 5 minutes or more.
 
 When sending 8 requests:
+
 ![image](https://github.com/user-attachments/assets/7c29e465-4ccd-4fce-81c6-4d166fba6851)
+
 The CPU utilization rate of 8-core reaches 100%, but due to insufficient resources, other business requests cannot be processed. Causing DOS attacks.
 
 Temporary repair suggestion:
+
 Close rule 941170, or utilize old version 941170, or restrict content length.
