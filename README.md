@@ -20,4 +20,4 @@ The CPU utilization rate of 8-core reaches 100%, but due to insufficient resourc
 
 Temporary repair suggestion:
 
-Close rule 941170, or utilize old version 941170, or restrict content length.
+①Close rule 941170, or ②utilize old version 941170, or ③restrict content length(This method has limited effectiveness).
